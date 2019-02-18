@@ -1,0 +1,60 @@
+body {
+  margin: auto;
+}
+
+.main-content {
+    width: 500rem;
+    height: 100rem;
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    transform: translate(-50%, -50%); 
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  height: auto;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+h1 {
+	padding: 1rem;
+	text-align: center;
+	padding-top: auto;
+}
+
+img {
+	margin: auto;
+	margin-top: 20em;
+	display: block;
+	width: 350px;
+	left: 50%;
+}
+
+.button {
+	margin: auto;
+	margin-top: 0.5em;
+	display: block;
+	font-size: 40px;
+	border: 0;
+	background-color: #f48fb1;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+iframe {
+	display: none;
+}
+
